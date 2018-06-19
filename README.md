@@ -16,3 +16,7 @@ This project was created to study Kotlin and ReactiveX and more little things. T
 * RxJava Guide for Android Developers: http://blog.jimbaca.com/essential-rxjava-guide-for-android-developers/
 * Use WorkManager to update timeline in background: https://developer.android.com/reference/androidx/work/WorkManager
 * Retrofit Library: http://square.github.io/retrofit/
+
+### Testing
+* Build local unit tests: https://developer.android.com/training/testing/unit-testing/local-unit-tests
+* UI testes with Espresso: https://developer.android.com/training/testing/espresso/
