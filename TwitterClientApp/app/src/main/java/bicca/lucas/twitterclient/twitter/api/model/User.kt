@@ -1,4 +1,4 @@
-package bicca.lucas.twitterclient.model
+package bicca.lucas.twitterclient.twitter.api.model
 
 import com.google.gson.annotations.SerializedName
 
