@@ -1,39 +1,31 @@
 package bicca.lucas.twitterclient.model
 
+import com.google.gson.annotations.SerializedName
+
 class Media {
 
-    var id: Long;
-    var displayUrl: String
-    var expandedUrl: String
-    var idStr: String
-    var indices: Array<Int>
-    var mediaUrl: String
-    var mediaUrlHttps: String
-
-    /*
     @SerializedName("id")
-    private long id;
+    var id: Long = 0
     @SerializedName("display_url")
-    private String displayUrl;
+    lateinit var displayUrl: String
     @SerializedName("expanded_url")
-    private String expandedUrl;
+    lateinit var expandedUrl: String
     @SerializedName("id_str")
-    private String idStr;
+    lateinit var idStr: String
     @SerializedName("indices")
-    private int[] indices;
+    lateinit var indices: Array<Int>
     @SerializedName("media_url")
-    private String mediaUrl;
+    lateinit var mediaUrl: String
     @SerializedName("media_url_https")
-    private String mediaUrlHttps;
+    lateinit var mediaUrlHttps: String
     @SerializedName("sizes")
-    private Sizes sizes;
+    lateinit var sizes: Sizes
     @SerializedName("source_status_id")
-    private long sourceStatusId;
+    var sourceStatusId: Long = 0
     @SerializedName("source_status_id_str")
-    private String sourceStatusIdStr;
+    lateinit var sourceStatusIdStr: String
     @SerializedName("type")
-    private String type;
+    lateinit var type: String
     @SerializedName("url")
-    private String url;
-     */
+    lateinit var url: String
 }

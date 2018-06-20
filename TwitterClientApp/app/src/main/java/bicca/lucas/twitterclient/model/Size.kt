@@ -5,15 +5,9 @@ import com.google.gson.annotations.SerializedName
 class Size {
 
     @SerializedName("w")
-    var w: Int?
+    var w: Int = 0
     @SerializedName("h")
-    var h: Int?
+    var h: Int = 0
     @SerializedName("resize")
-    var resize: String?
-
-    init {
-        w = null
-        h = null
-        resize = null
-    }
+    lateinit var resize: String
 }

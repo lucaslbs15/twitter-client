@@ -2,7 +2,7 @@ package bicca.lucas.twitterclient.model
 
 import com.google.gson.annotations.SerializedName
 
-class Hashtag {
+class Symbol {
 
     @SerializedName("indices")
     lateinit var indices: Array<Int>

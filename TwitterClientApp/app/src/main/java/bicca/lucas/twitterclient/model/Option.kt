@@ -2,10 +2,10 @@ package bicca.lucas.twitterclient.model
 
 import com.google.gson.annotations.SerializedName
 
-class Hashtag {
+class Option {
 
-    @SerializedName("indices")
-    lateinit var indices: Array<Int>
+    @SerializedName("position")
+    var position: Int = 0
     @SerializedName("text")
     lateinit var text: String
 }
