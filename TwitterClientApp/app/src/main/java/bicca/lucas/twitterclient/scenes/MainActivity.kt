@@ -1,7 +1,8 @@
-package bicca.lucas.twitterclient
+package bicca.lucas.twitterclient.scenes
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import bicca.lucas.twitterclient.R
 
 class MainActivity : AppCompatActivity() {
 
