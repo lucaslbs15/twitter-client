@@ -33,4 +33,5 @@ dependencies {
     implementation "com.squareup.retrofit2:retrofit:2.4.0"
     implementation "com.squareup.retrofit2:converter-gson:2.4.0"
     implementation "com.google.code.gson:gson:2.8.4"
+    debugImplementation 'com.facebook.sonar:sonar:0.0.8'
 }
